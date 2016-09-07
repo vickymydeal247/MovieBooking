@@ -1,0 +1,159 @@
+body {
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+h1 {
+  color: #1d3060;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding-top: 0px
+}
+
+h2 {
+  color: #1d3060;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 18px;
+  margin-top: 10px
+}
+
+#side {
+  width: 30%;
+  text-align: left;
+  margin: 20px;
+  float: right;
+}
+#gallery {text-align:center;margin: 0 auto;}
+
+#gallery img {text-align:center;margin: 0 auto;}
+span {
+  color: orange;
+  width: 100%;
+  float: left;
+  line-height: 20px;
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+.addto {
+  float: right;
+  margin-toP: 30px;
+  color: teal;
+  font-family: "Lato";
+  font-size: 14px
+}
+
+.addto a {
+  color: #03A0C4;
+  text-decoration: none;
+}
+
+select {
+  background: #F3F3F3;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: 0px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  background-color: #1d3060;
+  color: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  border: 0px;
+  padding: 10px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+#shipping {
+  border-top: 1px solid #eee
+}
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 10px 0px;
+  font-weight: 600;
+  text-align: center;
+  color: #4a4a4a;
+  border: 1px solid transparent;
+  margin-right: 20px;
+  font-family: "Lato";
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px
+}
+
+h3 {
+  padding: 10px 0px;
+  font-weight: 600;
+  text-align: left;
+  color: #1d3060;
+  font-family: "Lato";
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px
+}
+.item {color:#aaa;}
+  
+}
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #1d3060;
+  border-bottom: 2px solid #1d3060;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+#gallery {background:;width:65%;float:left;}
